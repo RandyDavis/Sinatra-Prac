@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sample Title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <h1>The current time is: <%= Time.now %></h1>
+      <%= 5 + 10 %>
+      <%= "drop it".upcase %>
+      <%= ["h","e","y"].join %>
+      <ul>
+        <% ["mike", "tina", "penny"].each do |name| %>
+          <li><%= name %></li>
+          <% end %>
+      </ul>
+    </body>
+</html>
